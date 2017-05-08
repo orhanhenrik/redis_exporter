@@ -86,11 +86,14 @@ var (
 		"keyspace_misses":            "keyspace_misses_total",
 		"pubsub_channels":            "pubsub_channels",
 		"pubsub_patterns":            "pubsub_patterns",
+    "instantaneous_ops_per_sec":  "instantaneous_ops_per_sec",
 
 		// # Replication
-		"loading":           "loading_dump_file",
-		"connected_slaves":  "connected_slaves",
-		"repl_backlog_size": "replication_backlog_bytes",
+		"loading":                    "loading_dump_file",
+		"connected_slaves":           "connected_slaves",
+		"repl_backlog_size":          "replication_backlog_bytes",
+    "master_last_io_seconds_ago": "master_last_io_seconds_ago",
+    "master_repl_offset":         "master_repl_offset",
 
 		// # CPU
 		"used_cpu_sys":           "used_cpu_sys",

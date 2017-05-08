@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/oliver006/redis_exporter/exporter"
+	"github.com/orhanhenrik/redis_exporter/exporter"
 	"github.com/prometheus/client_golang/prometheus"
 )
 
